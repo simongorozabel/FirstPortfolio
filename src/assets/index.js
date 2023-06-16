@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import live from "./live.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,12 +26,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import gentlegozo from "./company/gentlegozo.png";
+import pugas from "./company/pugas.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import fitnessapp from "./fitnessap.png";
+import pokedex from "./pokedex.png";
+import ecommerce from "./ecommerce.png";
+import tiktaktoe from "./tiktaktoe.png";
 
 export {
+  live,
   logo,
   backend,
   creator,
@@ -59,4 +67,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  fitnessapp,
+  pokedex,
+  ecommerce,
+  tiktaktoe,
+  pugas,
+  gentlegozo,
 };
