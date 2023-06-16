@@ -37,7 +37,10 @@ import pokedex from "./pokedex.png";
 import ecommerce from "./ecommerce.png";
 import tiktaktoe from "./tiktaktoe.png";
 
+import cv from "./Simon_CV.pdf";
+
 export {
+  cv,
   live,
   logo,
   backend,
