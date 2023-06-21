@@ -45,6 +45,9 @@ const Navbar = () => {
               download
               className={` text-[#915eff]
             hover:text-[crimson] text-[18px] font-medium cursor-pointer`}
+              style={{
+                transition: "0.2s",
+              }}
             >
               Download CV
             </a>

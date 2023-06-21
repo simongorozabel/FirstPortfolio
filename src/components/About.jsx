@@ -43,11 +43,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I&#39;m a skilled web developer with experience in Javascript, and
-        expertise in frameworks like React and Node. I&#39;m a quick learner and
-        collaborate closely with clients to create efficient, scalable, and
-        user-friendly solutions that solve real-world problems. Let&#39;s work
-        together to bring your ideas to life!
+        Experience in Javascript, and expertise in frameworks like React and
+        Node. Quick learner and collaborate closely with clients to create
+        efficient, scalable, and user-friendly solutions that solve real-world
+        problems. Let&#39;s work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex justify-center flex-wrap gap-10">

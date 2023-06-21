@@ -46,15 +46,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Web Developer",
+    title: "UI/UX",
     icon: web,
   },
   {
-    title: "React.js Developer",
+    title: "Components",
     icon: mobile,
   },
   {
-    title: "Node.js Developer",
+    title: "Server",
     icon: backend,
   },
   {
@@ -100,6 +100,14 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "mongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "typescript",
+    icon: typescript,
   },
 ];
 
