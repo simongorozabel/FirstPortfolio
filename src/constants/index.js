@@ -111,7 +111,7 @@ const experiences = [
     company_name: "GentleGozo",
     icon: gentlegozo,
     iconBg: "#383E56",
-    date: "September 2018 - March 2020",
+    date: "September 2018 - March 2021",
     points: [
       "Developing selling skills to drive customers into action.",
       "Collaborating with a small team to create high-quality products.",
@@ -127,7 +127,7 @@ const experiences = [
     points: [
       "Cleaning and keeping a property database up to date.",
       "Collaborating with cross-functional teams including civil engineers and real estate agents to understand the market.",
-      "Nearly $9,000 in commissions to the company through basic Facebook and Instagram posts in 2 weeks.",
+      "Nearly $9,000 in commissions to the company through basic Facebook and Instagram posts in less than 2 weeks.",
     ],
   },
 ];
