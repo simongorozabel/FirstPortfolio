@@ -202,7 +202,7 @@ const projects = [
     ],
     image: fitnessapp,
     source_code_link: "https://github.com/simongorozabel/Desktop_Fitness_App",
-    source_live_link: "https://simon-desktop-fitness.netlify.app/",
+    source_live_link: "https://fitness-app-simon.netlify.app/",
   },
 
   {
