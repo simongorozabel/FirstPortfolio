@@ -39,6 +39,8 @@ import tiktaktoe from "./tiktaktoe.png";
 
 import cv from "./Simon_CV.pdf";
 
+import linkedin from "./linkedin-square-logo-24.png";
+
 export {
   cv,
   live,
@@ -76,4 +78,5 @@ export {
   tiktaktoe,
   pugas,
   gentlegozo,
+  linkedin,
 };
