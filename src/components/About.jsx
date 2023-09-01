@@ -36,17 +36,15 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>How I can help you.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Experience in Javascript, and expertise in frameworks like React and
-        Node. Quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let&#39;s work together to bring your ideas to life!
+        Purpose Driven and JavaScript Lover, including React, Node, TypeScript,
+        Tailwind and Next. Extra: mySQL and postgreSQL.
       </motion.p>
 
       <div className="mt-20 flex justify-center flex-wrap gap-10">

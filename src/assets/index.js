@@ -8,24 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import live from "./live.png";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import gentlegozo from "./company/gentlegozo.png";
 import pugas from "./company/pugas.png";
 
@@ -34,7 +16,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import fitnessapp from "./fitnessap.png";
 import pokedex from "./pokedex.png";
-import ecommerce from "./ecommerce.png";
+import ecommerce_fitness from "./ecommerce.png";
 import tiktaktoe from "./tiktaktoe.png";
 
 import cv from "./Simon_CV.pdf";
@@ -52,29 +34,12 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   fitnessapp,
   pokedex,
-  ecommerce,
+  ecommerce_fitness,
   tiktaktoe,
   pugas,
   gentlegozo,

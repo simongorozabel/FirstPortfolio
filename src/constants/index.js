@@ -3,28 +3,10 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   fitnessapp,
   pokedex,
-  ecommerce,
-  tiktaktoe,
   pugas,
-  gentlegozo,
+  ecommerce_fitness,
 } from "../assets";
 
 export const navLinks = [
@@ -48,120 +30,129 @@ const services = [
     icon: web,
   },
   {
-    title: "Components",
+    title: "Design Thinking",
     icon: mobile,
   },
   {
-    title: "Server",
+    title: "Data Base",
     icon: backend,
   },
   {
-    title: "Entrepreneur Mindset",
+    title: "Full Stack Developer",
     icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "mongoDB",
-    icon: mongodb,
   },
 ];
 
 const experiences = [
   {
-    title: "Entrepreneur",
-    company_name: "GentleGozo",
-    icon: gentlegozo,
-    iconBg: "#383E56",
-    date: "September 2018 - March 2021",
+    title: "Admin and E-commerce Store for Clothing brand",
+    company_name: "",
+    icon: "",
+    iconBg: "#E6DEDD",
+    date: "2023",
     points: [
-      "Developing selling skills to drive customers into action.",
-      "Collaborating with a small team to create high-quality products.",
-      "Implementing digital marketing knowledge to retain customers.",
+      "Checkout with Stripe.",
+      "API CRUD interface for Admin purposes.",
+      "Multiple E-commerce creation.",
+      "Web Design and Component Oriented.",
+    ],
+  },
+  {
+    title: "E-commerce Store for Fitness brand",
+    company_name: "Academlo",
+    icon: "",
+    iconBg: "#383E56",
+    date: "2023",
+    points: [
+      "Log-in and Sign-in with user Token and Email verification.",
+      "Protected CRUD's API and Routes.",
+      "Products Cart and Purchases CRUD.",
+      "Web Design and Component Oriented.",
     ],
   },
   {
     title: "Marketing Director",
-    company_name: "Pugas Enterprise",
+    company_name: "PUGAS Enterprise",
     icon: pugas,
     iconBg: "#E6DEDD",
-    date: "December 2021 - May 2022",
+    date: "2022",
     points: [
-      "Cleaning and keeping a property database up to date.",
-      "Collaborating with cross-functional teams including civil engineers and real estate agents to understand the market.",
-      "Nearly $9,000 in commissions to the company through basic Facebook and Instagram posts in less than 2 weeks.",
+      "Real state property database up to date and clean to create ads.",
+      "Collaborating with cross-functional teams.",
+      "Flow state and resilience.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Simon proved me wrong.",
-    name: "Mrs. Anonimous",
-    designation: "CFO",
-    company: "Anonimous Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients success like Simon does.",
-    name: "Mr. Plato",
-    designation: "COO",
-    company: "Epistemology Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Simon optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Atenas Minerva",
-    designation: "CTO",
-    company: "Peace Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Pokedex App",
+    name: "E-commerce Admin and Store for Clothes",
+    description:
+      "Full Stack E-commerce Admin and Store for Clothing Brand that allows admin create multiple stores in one place.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce_fitness,
+    source_code_link:
+      "hhttps://github.com/simongorozabel/E-commerce-ReactNodeSQL",
+    source_live_link: "https://react-ecommerce-by-simon.netlify.app/",
+  },
+  {
+    name: "E-commerce Store for Fitness",
+    description:
+      "Full Stack E-commerce Store with focus in the Fitness Niche of Gym. Become Unstoppable.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ecommerce_fitness,
+    source_code_link:
+      "hhttps://github.com/simongorozabel/E-commerce-ReactNodeSQL",
+    source_live_link: "https://react-ecommerce-by-simon.netlify.app/",
+  },
+  {
+    name: "Pokedex Web App",
     description:
       "Web application with public and protected routes that enables users to search and filter pokemons by name or type after knowing their names.",
     tags: [
@@ -170,12 +161,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "axios",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "router",
         color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
       },
     ],
     image: pokedex,
@@ -183,7 +178,7 @@ const projects = [
     source_live_link: "https://pokedex-simon.netlify.app/",
   },
   {
-    name: "Fitness Web App",
+    name: "Exercise Web App",
     description:
       "Web-based app that allows users to search, and watch exercises from various sources, providing a convenient and efficient solution for some training needs.",
     tags: [
@@ -204,29 +199,6 @@ const projects = [
     source_code_link: "https://github.com/simongorozabel/Desktop_Fitness_App",
     source_live_link: "https://fitness-app-simon.netlify.app/",
   },
-
-  {
-    name: "Tik Tak Toe Game",
-    description:
-      "Play alone or with friends, this game will make you feel in another world if you are meant to fell it. I encourage you to win.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "components",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tiktaktoe,
-    source_code_link: "https://github.com/simongorozabel/Tic-Tac-Toe",
-    source_live_link: "https://tic-tac-toe-simon.netlify.app/",
-  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, projects };

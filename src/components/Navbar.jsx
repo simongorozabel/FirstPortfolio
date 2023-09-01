@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, cv, github, linkedin } from "../assets";
+import { logo, menu, close, cv } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -26,30 +26,7 @@ const Navbar = () => {
             Simon &nbsp;<span className="sm:block hidden">Gorozabel</span>
           </p>
         </Link>
-        <div className="flex">
-          <Link
-            className="flex items-center gap-2"
-            to="https://github.com/simongorozabel?tab=repositories"
-            target="_blank"
-          >
-            <img
-              className="w-12 h-9 object-contain"
-              src={github}
-              alt="github"
-            />
-          </Link>
-          <Link
-            className="flex items-center gap-2"
-            to="https://www.linkedin.com/in/simongorozabel/"
-            target="_blank"
-          >
-            <img
-              className="w-7 h-9 object-contain"
-              src={linkedin}
-              alt="linkedin"
-            />
-          </Link>
-        </div>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li

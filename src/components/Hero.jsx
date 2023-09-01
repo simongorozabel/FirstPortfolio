@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { Link } from "react-router-dom";
+
+import { linkedin, github } from "../assets";
 
 const Hero = () => {
   return (
@@ -18,10 +21,28 @@ const Hero = () => {
             Hi, I&#39;m <span className="text-[#915eff]">Simon</span>
           </h1>
 
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full Stack
-            <br className="sm:block hidden" /> Web Developer.
-          </p>
+          <div>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+              Web
+              <br className="sm:block hidden" /> Developer.
+            </p>
+            <div className="flex xs:gap-2 md:gap-4">
+              <Link
+                to="https://github.com/simongorozabel?tab=repositories"
+                target="_blank"
+                className="w-8 h-8 cursor-pointer z-10"
+              >
+                <img src={github} alt="github" />
+              </Link>
+              <Link
+                to="https://www.linkedin.com/in/simongorozabel/"
+                target="_blank"
+                className="w-8 h-8 cursor-pointer z-10"
+              >
+                <img src={linkedin} alt="linkedin" />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 
