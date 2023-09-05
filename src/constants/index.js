@@ -7,6 +7,9 @@ import {
   pokedex,
   pugas,
   ecommerce_fitness,
+  tiktaktoe,
+  admin_ecommerce,
+  store_ecommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -86,9 +89,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "E-commerce Admin and Store for Clothes",
+    name: "E-commerce Store for Clothes",
     description:
-      "Full Stack E-commerce Admin and Store for Clothing Brand that allows admin create multiple stores in one place.",
+      "The full Stack Web Store for Clothing Brand that uses one of the API's the admin below created. With Stripe integration to allow Card Payment.",
     tags: [
       {
         name: "react",
@@ -107,23 +110,64 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindCSS",
         color: "blue-text-gradient",
       },
       {
         name: "prisma",
         color: "pink-text-gradient",
       },
+      {
+        name: "mySQL",
+        color: "blue-text-gradient",
+      },
     ],
-    image: ecommerce_fitness,
-    source_code_link:
-      "hhttps://github.com/simongorozabel/E-commerce-ReactNodeSQL",
-    source_live_link: "https://react-ecommerce-by-simon.netlify.app/",
+    image: store_ecommerce,
+    source_code_link: "https://github.com/simongorozabel/ecommerce-store-admin",
+    source_live_link: "https://ecommerce-store-simongorozabel.vercel.app/",
+  },
+  {
+    name: "Admin for multiple E-commerce of Clothes",
+    description:
+      "The full Stack Web Admin for Clothing Brands that allows to create multiple stores API in one place, get track of your orders and upload products from scratch.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mySQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: admin_ecommerce,
+    source_code_link: "https://github.com/simongorozabel/ecommerce-admin-store",
+    source_live_link: "https://ecommerce-admin-simongorozabel.vercel.app/",
   },
   {
     name: "E-commerce Store for Fitness",
     description:
-      "Full Stack E-commerce Store with focus in the Fitness Niche of Gym. Become Unstoppable.",
+      "Full Stack E-commerce Store with focus in the Fitness Niche in wich you can login, sing-up and add to cart.",
     tags: [
       {
         name: "react",
@@ -148,7 +192,7 @@ const projects = [
     ],
     image: ecommerce_fitness,
     source_code_link:
-      "hhttps://github.com/simongorozabel/E-commerce-ReactNodeSQL",
+      "https://github.com/simongorozabel/E-commerce-ReactNodeSQL",
     source_live_link: "https://react-ecommerce-by-simon.netlify.app/",
   },
   {
@@ -169,8 +213,12 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "css",
+        name: "axios",
         color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
       },
     ],
     image: pokedex,
@@ -180,7 +228,7 @@ const projects = [
   {
     name: "Exercise Web App",
     description:
-      "Web-based app that allows users to search, and watch exercises from various sources, providing a convenient and efficient solution for some training needs.",
+      "Web-based app that allows users to search, and watch exercises from various sources.",
     tags: [
       {
         name: "react",
@@ -198,6 +246,28 @@ const projects = [
     image: fitnessapp,
     source_code_link: "https://github.com/simongorozabel/Desktop_Fitness_App",
     source_live_link: "https://fitness-app-simon.netlify.app/",
+  },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "Play one of the most popular games in history. Now in your browser.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tiktaktoe,
+    source_code_link: "https://github.com/simongorozabel/Tic-Tac-Toe",
+    source_live_link: "https://tic-tac-toe-simon.netlify.app/",
   },
 ];
 

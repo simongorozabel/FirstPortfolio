@@ -11,13 +11,12 @@ import live from "./live.png";
 import gentlegozo from "./company/gentlegozo.png";
 import pugas from "./company/pugas.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import fitnessapp from "./fitnessap.png";
 import pokedex from "./pokedex.png";
 import ecommerce_fitness from "./ecommerce.png";
 import tiktaktoe from "./tiktaktoe.png";
+import admin_ecommerce from "./admin-ecommerce.png";
+import store_ecommerce from "./store-ecommerce.png";
 
 import cv from "./Simon_CV.pdf";
 
@@ -34,9 +33,6 @@ export {
   github,
   menu,
   close,
-  carrent,
-  jobit,
-  tripguide,
   fitnessapp,
   pokedex,
   ecommerce_fitness,
@@ -44,4 +40,6 @@ export {
   pugas,
   gentlegozo,
   linkedin,
+  store_ecommerce,
+  admin_ecommerce,
 };
