@@ -6,6 +6,7 @@ import {
   fitnessapp,
   pokedex,
   pugas,
+  academlo,
   ecommerce_fitness,
   tiktaktoe,
   admin_ecommerce,
@@ -50,8 +51,8 @@ const experiences = [
   {
     title: "Admin and E-commerce Store for Clothing brand",
     company_name: "",
-    icon: "",
-    iconBg: "#E6DEDD",
+    icon: academlo,
+    iconBg: "#383E56",
     date: "2023",
     points: [
       "Checkout with Stripe.",
@@ -63,15 +64,23 @@ const experiences = [
   {
     title: "E-commerce Store for Fitness brand",
     company_name: "Academlo",
-    icon: "",
+    icon: academlo,
     iconBg: "#383E56",
     date: "2023",
     points: [
-      "Log-in and Sign-in with user Token and Email verification.",
+      "Log-in and Sign-up with user Token and Email verification.",
       "Protected CRUD's API and Routes.",
       "Products Cart and Purchases CRUD.",
       "Web Design and Component Oriented.",
     ],
+  },
+  {
+    title: "Pokedex",
+    company_name: "Academlo",
+    icon: academlo,
+    iconBg: "#383E56",
+    date: "2023",
+    points: ["Protected Routes.", "Web Design and Component Oriented."],
   },
   {
     title: "Marketing Director",
@@ -80,9 +89,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2022",
     points: [
-      "Real state property database up to date and clean to create ads.",
-      "Collaborating with cross-functional teams.",
-      "Flow state and resilience.",
+      "Real state property database administration to create ads.",
+      "Cross-functional teams.",
     ],
   },
 ];

@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github, live } from "../assets";
+import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -32,28 +32,21 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
+          <div className="absolute inset-0 flex flex-col justify-between m-3 card-img_hover gap-1">
             <div
               onClick={() => window.open(source_live_link, "_blank")}
-              className="w-10 h-10 rounded-full flex items-center justify-center cursor-pointer "
-              style={{
-                background: "radial-gradient(#915eff, black)",
-              }}
+              className="w-10 h-10 cursor-pointer flex items-center justify-center bg-red-500 bg-opacity-70 rounded-full transition-all hover:bg-opacity-100 hover:bg-red-700"
             >
-              <img
-                src={live}
-                alt="webapp"
-                className="w-1/2 h-1/2 object-contain"
-              />
+              Live
             </div>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex items-center justify-center cursor-pointer"
+              className="w-10 h-10 cursor-pointer opacity-70 transition-all hover:opacity-100"
             >
               <img
                 src={github}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain"
+                className=" bg-black rounded-full"
               />
             </div>
           </div>

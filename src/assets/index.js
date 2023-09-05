@@ -10,6 +10,7 @@ import live from "./live.png";
 
 import gentlegozo from "./company/gentlegozo.png";
 import pugas from "./company/pugas.png";
+import academlo from "./company/academlo.png";
 
 import fitnessapp from "./fitnessap.png";
 import pokedex from "./pokedex.png";
@@ -42,4 +43,5 @@ export {
   linkedin,
   store_ecommerce,
   admin_ecommerce,
+  academlo,
 };

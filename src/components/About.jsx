@@ -43,8 +43,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Purpose Driven and JavaScript Lover, including React, Node, TypeScript,
-        Tailwind and Next. Extra: mySQL and postgreSQL.
+        Purpose, Growth and Passion Driven JavaScript Lover, including React,
+        Node, TypeScript, Tailwind, Next, mySQL and postgreSQL.
       </motion.p>
 
       <div className="mt-20 flex justify-center flex-wrap gap-10">
