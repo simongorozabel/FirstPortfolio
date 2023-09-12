@@ -21,8 +21,8 @@ const ProjectCard = ({
       <Tilt
         options={{
           max: 45,
-          scale: 1,
-          speed: 450,
+          scale: 1.1,
+          speed: 650,
         }}
         className="bg-tertiary p-5 rounded-2xl  w-full max-w-[360px]"
       >
@@ -35,9 +35,9 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex flex-col justify-between m-3 card-img_hover gap-1">
             <div
               onClick={() => window.open(source_live_link, "_blank")}
-              className="w-10 h-10 cursor-pointer flex items-center justify-center bg-red-500 bg-opacity-70 rounded-full transition-all hover:bg-opacity-100 hover:bg-red-700"
+              className="w-14 h-14 cursor-pointer flex items-center justify-center bg-red-600 bg-opacity-70 rounded-full transition-all hover:bg-opacity-100 hover:bg-red-900 text-xl font-black"
             >
-              Live
+              LIVE
             </div>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -82,9 +82,8 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 0.1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Each project is briefly described with links to code repositories and
-          live demos in it. It reflects my ability to solve problems, work with
-          different technologies, and manage projects.
+          Each project have a LIVE button to see the project and a GITHUB button
+          to see the code.
         </motion.p>
       </div>
 
