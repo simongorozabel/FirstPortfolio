@@ -234,28 +234,6 @@ const projects = [
     source_live_link: "https://pokedex-simon.netlify.app/",
   },
   {
-    name: "Exercise Web App",
-    description:
-      "Web-based app that allows users to search, and watch exercises from various sources.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "materialUI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: fitnessapp,
-    source_code_link: "https://github.com/simongorozabel/Desktop_Fitness_App",
-    source_live_link: "https://fitness-app-simon.netlify.app/",
-  },
-  {
     name: "Tic Tac Toe",
     description:
       "Play one of the most popular games in history. Now in your browser.",
